@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbox</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Asigură-te că acest fișier CSS este corect legat -->
+</head>
+<body>
+
+    <!-- Bara de navigare -->
+    <header class="navbar">
+        <div class="navbar-content">
+            <div class="logo">AMETHISTMARKET</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Căutare...">
+            </div>
+            <div class="profile">
+                <img src="images/AMETHISTMARKET.jpg" alt="Profile Picture"> <!-- Asigură-te că ai o imagine pentru profil -->
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul>
+                <li class="active">Inbox</li>
+                <li>Trimise</li>
+                <li>Concept</li>
+                <li>Coș de gunoi</li>
+            </ul>
+        </aside>
+
+        <!-- Mesaje -->
+        <div class="messages">
+            <!-- Buton pentru a compune un mesaj nou -->
+            <div class="message-header">
+                <button class="compose-btn">Compune</button>
+            </div>
+
+            <!-- Lista de mesaje -->
+            <div class="message-list">
+                <div class="message-item">
+                    <input type="checkbox" class="select-message">
+                    <span class="message-sender">Ion Popescu</span>
+                    <span class="message-subject">Întrebare importantă</span>
+                    <span class="message-time">12:34 PM</span>
+                </div>
+                <div class="message-item">
+                    <input type="checkbox" class="select-message">
+                    <span class="message-sender">Maria Ionescu</span>
+                    <span class="message-subject">Mă bucur să te văd!</span>
+                    <span class="message-time">1:15 PM</span>
+                </div>
+                <!-- Adaugă mai multe mesaje după acest format -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
