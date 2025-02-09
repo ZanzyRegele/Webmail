@@ -1,0 +1,13 @@
+/* Fundalul paginii de login */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('images/AMETHISTMARKET.jpg'); /* Calea corectă către imagine */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Alte stiluri ... */
